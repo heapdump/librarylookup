@@ -1,1 +1,1 @@
-var r=/([\/-]|is[bs]n=)(\d{7,9}[\dX])/i;if(r.test(location.href)==true){var isbn=RegExp.$2;window.open("http://austin.bibliocommons.com/search?t=smart&search_category=keyword&commit=Search&searchOpt=catalogue&q="+isbn)}
+javascript:var r=/([\/-]|is[bs]n=)(\d{7,9}[\dX])/i;if(r.test(location.href)==true){var isbn=RegExp.$2;window.open("http://austin.bibliocommons.com/search?t=smart&search_category=keyword&commit=Search&searchOpt=catalogue&q="+isbn)}
